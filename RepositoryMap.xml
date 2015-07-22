@@ -1,0 +1,4 @@
+<RepositoryMap>
+    <Repo CountryCode="US" RepoPath="http://raw.github.com/devvidon/AddOnRepo/master/Repository/Usa.zip"
+    <Repo CountryCode="DE" RepoPath="http://raw.github.com/devvidon/AddOnRepo/master/Repository/German.zip"
+</RepositoryMap>
