@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+	<addon id="plugin.video.ustvnow" version="10.0.5" name="USTVnow" provider-name="CrazyAddon">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Plays live streams and recordings from ustvnow.com</summary>
+			<description lang="en">Live streaming US TV. You MUST log in to view streams (see addon settings). You can also play any recordings you have made on ustvnow.com</description>
+			<platform>all</platform>
+			<language>en</language>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+			<source>http://raw.github.com/Crazyaddon/AddOnRepo/master/Update/repo/plugin.video.ustvnow/</source>
+		</extension>
+	</addon>
+	<addon id="plugin.video.ustvnow-dixie" version="1.2.4" name="USTVnow for On-Tapp.TV" provider-name="CrazyAddon">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Plays live streams and recordings from ustvnow.com</summary>
+			<description>Credit to Lunatixz for some code used in this current version. Live streaming US TV. You MUST log in to view streams (see addon settings). You can also play any recordings you have made on ustvnow.com. Modified to work with TV Guide Dixie.</description>
+			<platform>all</platform>
+			<source>http://raw.github.com/Crazyaddon/AddOnRepo/master/Update/repo/plugin.video.ustvnow-dixie/</source>
+		</extension>
+	</addon>
+</addons>
